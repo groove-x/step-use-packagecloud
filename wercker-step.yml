@@ -1,5 +1,5 @@
 name: use-packagecloud
-version: 0.0.1
+version: 0.0.3
 description: push package
 properties:
   repo_name:
@@ -8,3 +8,7 @@ properties:
   token:
     type: string
     required: true
+  unique_id:
+    type: string
+    required: false
+    default: wercker
